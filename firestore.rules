@@ -1,0 +1,38 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // 0. Default deny
+    match /{document=**} {
+      allow read, write: if false;
+    }
+
+    // 0.1 Global Helpers
+    function isSignedIn() { return request.auth != null; }
+    function isValidId(id) { return id is string && id.size() <= 128 && id.matches('^[a-zA-Z0-9_\\-]+$'); }
+    function incoming() { return request.resource.data; }
+
+    function isValidContactSubmission(data) {
+      return data.keys().hasAll(['fullName', 'phoneNumber', 'email', 'service', 'source', 'createdAt']) 
+        && data.keys().size() >= 6 && data.keys().size() <= 7
+        && data.fullName is string && data.fullName.size() > 0 && data.fullName.size() <= 200
+        && data.phoneNumber is string && data.phoneNumber.size() > 0 && data.phoneNumber.size() <= 50
+        && data.email is string && data.email.size() > 0 && data.email.size() <= 200
+        && data["service"] is string && data["service"] in [
+          "Free Roof Inspection", 
+          "Emergency Storm Repair", 
+          "Residential Replacement", 
+          "Commercial Maintenance", 
+          "Leak Detection & Repair"
+        ]
+        && data["source"] is string && data["source"].size() <= 255
+        && (data.get("details", "") is string && data.get("details", "").size() <= 2000)
+        && data.createdAt == request.time;
+    }
+
+    // 1. Contact Submissions
+    match /contacts/{contactId} {
+      allow create: if isValidId(contactId) && isValidContactSubmission(incoming());
+      allow get, list, update, delete: if false; 
+    }
+  }
+}
