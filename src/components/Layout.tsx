@@ -30,7 +30,7 @@ export function Navbar() {
     }`}>
       <div className="max-w-[1200px] mx-auto px-4 md:px-6 h-full flex justify-between items-center">
         <Link to="/" className="font-display text-xl md:text-2xl font-bold text-primary active:scale-95 transition-transform">
-          Delray Quality Roofing
+          D' Roofing Group
         </Link>
 
         {/* Desktop Nav */}
@@ -100,7 +100,7 @@ export function Footer() {
       <div className="max-w-[1200px] mx-auto px-4 md:px-6 grid grid-cols-1 md:grid-cols-2 gap-12">
         <div className="flex flex-col items-center md:items-start text-center md:text-left">
           <Link to="/" className="font-display text-2xl font-bold mb-6 block">
-            Delray Quality Roofing
+            D' Roofing Group
           </Link>
           <p className="text-on-primary-container max-w-sm mb-6">
             Premium coastal roofing solutions built on a foundation of trust, quality, and structural integrity.
@@ -108,11 +108,11 @@ export function Footer() {
           <div className="space-y-3 text-caption text-on-primary-container">
             <div className="flex items-start gap-2 justify-center md:justify-start">
               <MapPin size={18} className="mt-1 flex-shrink-0" />
-              <span>1234 Coastal Way, Suite 100<br />Delray Beach, FL 33483</span>
+              <span>323 Arpt Rd S,<br />Naples, FL 34104</span>
             </div>
             <div className="flex items-center gap-2 justify-center md:justify-start">
               <Phone size={18} className="flex-shrink-0" />
-              <a href="tel:5617261066" className="hover:text-secondary transition-colors underline decoration-secondary/30">(561) 726-1066</a>
+              <a href="tel:2392567788" className="hover:text-secondary transition-colors underline decoration-secondary/30">(239) 256-7788</a>
             </div>
           </div>
         </div>
@@ -130,7 +130,7 @@ export function Footer() {
       </div>
       <div className="max-w-[1200px] mx-auto px-4 md:px-6 mt-16 pt-8 border-t border-on-primary-container/10 text-center">
         <p className="text-caption text-on-primary-container">
-          © {new Date().getFullYear()} Delray Quality Roofing. All rights reserved.
+          © {new Date().getFullYear()} D' Roofing Group. All rights reserved.
         </p>
       </div>
     </footer>
