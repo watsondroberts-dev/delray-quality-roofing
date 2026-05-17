@@ -100,7 +100,7 @@ export default function Contact() {
             >
               <h1 className="text-display mb-6">Get Your Free Roofing Estimate</h1>
               <p className="text-body-lg text-on-surface-variant mb-12">
-                Protecting Delray Beach homes with uncompromised quality. Fill out the form or call us directly for immediate assistance with repairs, replacements, or inspections.
+                Protecting Naples homes with uncompromised quality. Fill out the form or call us directly for immediate assistance with repairs, replacements, or inspections.
               </p>
             </motion.div>
 
@@ -111,7 +111,7 @@ export default function Contact() {
                 </div>
                 <div>
                   <span className="text-caption font-bold uppercase tracking-widest text-on-surface-variant mb-1 block">Direct Line</span>
-                  <a href="tel:5617261066" className="text-headline-md text-2xl hover:text-secondary transition-colors">(561) 726-1066</a>
+                  <a href="tel:2392567788" className="text-headline-md text-2xl hover:text-secondary transition-colors">(239) 256-7788</a>
                 </div>
               </div>
 
@@ -121,7 +121,7 @@ export default function Contact() {
                 </div>
                 <div>
                   <span className="text-caption font-bold uppercase tracking-widest text-on-surface-variant mb-1 block">Office Location</span>
-                  <p className="text-body-md font-semibold">1234 Coastal Way, Suite 100<br />Delray Beach, FL 33483</p>
+                  <p className="text-body-md font-semibold">323 Arpt Rd S<br />Naples, FL 34104</p>
                 </div>
               </div>
             </div>
