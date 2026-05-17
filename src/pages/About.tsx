@@ -12,9 +12,9 @@ export default function About() {
             initial={{ opacity: 0, x: -30 }}
             animate={{ opacity: 1, x: 0 }}
           >
-            <h1 className="text-display mb-6">Rooted in Delray Beach, Built on Trust.</h1>
+            <h1 className="text-display mb-6">Rooted in Naples, Built on Trust.</h1>
             <p className="text-body-lg text-on-surface-variant leading-relaxed">
-              We are more than just a roofing company; we are your neighbors. For over a decade, Delray Quality Roofing has been providing structural integrity and peace of mind to the homes and businesses of South Florida.
+              We are more than just a roofing company; we are your neighbors. For over a decade, D' Roofing Group has been providing structural integrity and peace of mind to the homes and businesses of South Florida.
             </p>
           </motion.div>
           <div className="relative h-[450px] rounded-3xl overflow-hidden shadow-2xl">
@@ -44,7 +44,7 @@ export default function About() {
               <h2 className="text-headline-lg mb-8">Our Story</h2>
               <div className="space-y-6 text-body-md text-on-surface-variant leading-relaxed">
                 <p>
-                  Delray Quality Roofing began with a simple mission: to provide the Delray Beach community with roofing solutions that combine superior materials with uncompromising craftsmanship. Understanding the unique demands of the Florida climate, we established a company dedicated to building roofs that truly last.
+                  D' Roofing Group began with a simple mission: to provide the Naples community with roofing solutions that combine superior materials with uncompromising craftsmanship. Understanding the unique demands of the Florida climate, we established a company dedicated to building roofs that truly last.
                 </p>
                 <p>
                   What started as a small local crew has grown into a premier provider of residential and commercial roofing services. Despite our growth, our core philosophy remains unchanged. We treat every project as if it were our own home, ensuring meticulous attention to detail from the initial inspection to the final nail.
