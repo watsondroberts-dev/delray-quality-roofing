@@ -55,7 +55,7 @@ export default function Services() {
           >
             <h1 className="text-display mb-6">Expert Roofing Services</h1>
             <p className="text-body-lg text-on-surface-variant italic">
-              Delivering premium, durable, and structurally sound roofing solutions tailored for the demanding coastal climate of Delray Beach.
+              Delivering premium, durable, and structurally sound roofing solutions tailored for the demanding coastal climate of Naples.
             </p>
           </motion.div>
         </div>
