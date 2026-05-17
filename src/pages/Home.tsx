@@ -25,10 +25,10 @@ export default function Home() {
           >
             <div className="inline-flex items-center gap-2 px-3 py-1.5 bg-surface-container-low rounded border border-outline-variant/30 mb-8 animate-fade-up">
               <CheckCircle2 size={16} className="text-secondary" />
-              <span className="text-caption font-semibold uppercase tracking-wider text-on-surface-variant">Trusted Delray Beach Roofing Experts</span>
+              <span className="text-caption font-semibold uppercase tracking-wider text-on-surface-variant">Trusted Naples Roofing Experts</span>
             </div>
             <h1 className="text-display mb-6 drop-shadow-sm">
-              Premium Roofing Solutions in Delray Beach
+              Premium Roofing Solutions in Naples
             </h1>
             <p className="text-body-lg text-on-surface-variant mb-10 max-w-xl">
               Delivering uncompromising quality and coastal reliability. We protect your home with structurally sound, high-end roofing systems built to withstand the Florida elements.
@@ -67,7 +67,7 @@ export default function Home() {
                 <MapPin size={28} />
               </div>
               <h3 className="text-label-bold text-primary mb-2">Local Experts</h3>
-              <p className="text-caption text-on-surface-variant">Serving Delray Beach</p>
+              <p className="text-caption text-on-surface-variant">Serving Naples</p>
             </div>
             <div className="flex flex-col items-center text-center p-4">
               <div className="w-16 h-16 rounded-full bg-surface-container flex items-center justify-center mb-6 text-primary shadow-sm">
@@ -170,15 +170,15 @@ export default function Home() {
             </div>
             
             <div className="w-full lg:w-1/2">
-              <span className="text-label-bold text-secondary uppercase tracking-[0.2em] mb-4 block">The Delray Choice</span>
-              <h2 className="text-headline-lg text-primary mb-8 leading-tight">Why Choose Delray Quality Roofing?</h2>
+              <span className="text-label-bold text-secondary uppercase tracking-[0.2em] mb-4 block">The Naples Choice</span>
+              <h2 className="text-headline-lg text-primary mb-8 leading-tight">Why Choose D' Roofing Group?</h2>
               <p className="text-body-md text-on-surface-variant mb-10 leading-relaxed">
                 We don't just build roofs; we engineer peace of mind. Our approach combines decades of local expertise with the industry's most durable materials, ensuring your investment stands strong against the Florida climate.
               </p>
               
               <div className="space-y-6">
                 {[
-                  { title: "Local Expertise", desc: "Deep understanding of Delray Beach building codes and specific weather challenges." },
+                  { title: "Local Expertise", desc: "Deep understanding of Naples building codes and specific weather challenges." },
                   { title: "Transparent Pricing", desc: "Detailed, honest quotes with no hidden fees or surprise upcharges." },
                   { title: "Premium Materials", desc: "Partnered with top-tier manufacturers for structurally superior systems." },
                   { title: "Absolute Reliability", desc: "Punctual teams, clean job sites, and commitment to schedules." }
@@ -210,7 +210,7 @@ export default function Home() {
         <div className="max-w-[1200px] mx-auto px-4 md:px-6">
            <div className="text-center mb-16 animate-fade-up">
             <h2 className="text-headline-lg text-primary mb-4">Client Testimonials</h2>
-            <p className="text-body-md text-on-surface-variant italic">Hear from our satisfied neighbors in Delray Beach.</p>
+            <p className="text-body-md text-on-surface-variant italic">Hear from our satisfied neighbors in Naples.</p>
           </div>
           
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -257,7 +257,7 @@ export default function Home() {
         <div className="max-w-[800px] mx-auto px-4 text-center relative z-10">
           <h2 className="text-headline-lg text-white mb-8">Need Professional Roofing Help?</h2>
           <p className="text-body-lg text-on-primary-container/80 mb-12">
-            Don't wait for a small leak to become a major structural issue. Secure your home with Delray Beach's most trusted roofing experts today.
+            Don't wait for a small leak to become a major structural issue. Secure your home with Naples's most trusted roofing experts today.
           </p>
           <Link 
             to="/contact" 
