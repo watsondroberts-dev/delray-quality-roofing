@@ -39,7 +39,7 @@ export default function Gallery() {
         <div className="max-w-[1200px] mx-auto px-4 md:px-6 text-center">
           <motion.div initial={{ opacity: 0, scale: 0.95 }} animate={{ opacity: 1, scale: 1 }} className="max-w-2xl mx-auto">
             <h1 className="text-display mb-6">Project Showcase</h1>
-            <p className="text-body-lg text-on-surface-variant font-medium">Explore our portfolio of premium roofing installations across Delray Beach and surrounding South Florida coastal communities.</p>
+            <p className="text-body-lg text-on-surface-variant font-medium">Explore our portfolio of premium roofing installations across Naples and surrounding South Florida coastal communities.</p>
           </motion.div>
         </div>
       </section>
