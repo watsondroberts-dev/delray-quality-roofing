@@ -218,17 +218,17 @@ export default function Home() {
               { 
                 text: "replaced our old tile roof and the experience was exceptional. The team was professional, the job site was kept incredibly clean, and the final result is beautiful. Highly recommend their transparent pricing.", 
                 author: "John D.", 
-                location: "Delray Beach, FL" 
+                location: "Naples, FL" 
               },
               { 
                 text: "We had a major leak after a storm. They responded incredibly fast, mitigated the damage immediately, and provided a permanent repair quickly. Real lifesavers with top-notch workmanship.", 
                 author: "Sarah M.", 
-                location: "Boynton Beach, FL" 
+                location: "Marco Island, FL" 
               },
               { 
                 text: "From the first inspection to the final walkthrough, their communication was flawless. It's rare to find a contractor this reliable and detail-oriented. The new roof has completely transformed our home's curb appeal.", 
                 author: "Robert T.", 
-                location: "Boca Raton, FL" 
+                location: "Bonita Springs, FL" 
               }
             ].map((test, i) => (
               <div key={i} className="bg-white p-10 rounded-2xl shadow-sm border border-outline-variant/20 flex flex-col">
